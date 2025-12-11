@@ -75,7 +75,7 @@ function formatHeaders() {
 
     let output = "headers = {\n";
     for (let key in headers) {
-        output += `    "${key}": "${headers[key]}",\n`;
+        output += `    '${key}': '${headers[key]}',\n`;
     }
     output += "}";
 
